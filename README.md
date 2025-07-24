@@ -2,12 +2,12 @@
 
 # Upload  reference platforms ISO Refplat to CML
 
-1.- Download the refplat-20250616-fcs-iso.zip
-2.- in VMware CML virtual machine settings go to cd/dvd and brose the refplat-20250616-fcs.iso
-2.- select connect and connect at power on
-3.- Go to CML cockpit 
-2.- in CML2 secction find copy refplat iso
-3.- click on refplat iso booton 
+<p>1.- Download the refplat-20250616-fcs-iso.zip
+<p>2.- in VMware CML virtual machine settings go to cd/dvd and brose the refplat-20250616-fcs.iso
+<p>3.- select connect and connect at power on
+<p>4.- Go to CML cockpit 
+<p>5.- in CML2 secction find copy refplat iso
+<p>6.- click on refplat iso booton 
 
 
 # Upload Images to cml with scp
@@ -30,7 +30,7 @@
 - Convert the vmdk to qcow2
   qemu-img convert -c -f vmdk -O qcow2 UCSPE_4.2.2aS9-disk1.vmdk ucspe_4.2.2aS9s.qcow2
 
-  -c is to compress the file
-  -f to indicate the origin file format
-  -O to indicagte the destination file format
+  <p>-c is to compress the file
+  <p>-f to indicate the origin file format
+  <p>-O to indicagte the destination file format
    
