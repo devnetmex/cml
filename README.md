@@ -1,5 +1,15 @@
 # Cisco CML Notes 
 
+# Upload  reference platforms ISO Refplat to CML
+
+1.- Download the refplat-20250616-fcs-iso.zip
+2.- in VMware CML virtual machine settings go to cd/dvd and brose the refplat-20250616-fcs.iso
+2.- select connect and connect at power on
+3.- Go to CML cockpit 
+2.- in CML2 secction find copy refplat iso
+3.- click on refplat iso booton 
+
+
 # Upload Images to cml with scp
 
 - Location to upload qcow2 images in cisco CML
