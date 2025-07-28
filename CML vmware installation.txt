@@ -1,0 +1,12 @@
+CML Installation on Vmware
+
+1.- Download de vwamre CML ova version from cisco software
+2.- open de CML ova file on Vmware
+3.- Don't start the CML vm 
+4.- Configure the phisical resources in the VM such as Disk space , processors and RAM
+Note.- this step its important because CML come preconfigured with a specific disk space and we need
+change the disk space before the CML start for first time because the auto install expand autocatically
+the diskspace to the configured manually
+5.- Attach the Refplat iso to the virtual cdrom in the cml virtual machine
+6.- start the CML virtual machine
+7.- configure the CML cockpit sysadmin User and the CML workbench admin User
