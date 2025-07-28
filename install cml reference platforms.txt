@@ -1,0 +1,15 @@
+Install CML Reference Platforms
+
+During the installation of CML
+
+1.- Attach the Refplat file to the virtual cd rom in the virtual machine after the run the CML virtual machine for first time
+2.- During the CML installation the CML setup wizard this will be installating atumatically
+
+After the CML installation
+
+1.- Attach the Refplat file to the virtual cd rom in the virtual machine
+2.- Go to the CML cockpit 
+3.- Go to CML2 / Copy Refplat ISO and click Refplat ISO
+
+NOte: the same process is for add the other nodes and images packs to CML for example SD-WAN and Cisco images
+
