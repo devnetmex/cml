@@ -1,0 +1,10 @@
+Update an existing cml server to a new version
+
+1.- Attach the update file downloaded from Cisco software to the virtual cdrom option in the virtual machine that is running CML
+2.- in CMLWorknech go to Tools / System Administration
+3.- System Maintenance and Enable maintenance mode and save
+4.- Go to Compute Host select the cml instance and CHange admission state to Registered
+5.- Go to CML Cockpit 
+6.- CML2 option / Software Update and click update
+
+Note: one the update will be done change the COmpute host state from Registered to Ready
